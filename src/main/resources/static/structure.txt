@@ -1,0 +1,25 @@
+todo-app-backend/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/example/todo/
+│   │   │       ├── controller/
+│   │   │       │   └── AuthController.java
+│   │   │       ├── entity/
+│   │   │       │   └── User.java
+│   │   │       ├── repository/
+│   │   │       │   └── UserRepository.java
+│   │   │       ├── security/
+│   │   │       │   ├── JwtFilter.java
+│   │   │       │   ├── JwtUtil.java
+│   │   │       │   └── SecurityConfig.java
+│   │   │       ├── service/
+│   │   │       │   └── AuthenticationService.java
+│   │   │       ├── payload/
+│   │   │       │   └── AuthRequest.java
+│   │   │       └── TodoAppApplication.java
+│   │   └── resources/
+│   │       ├── application.properties
+│   │       └── ...
+├── pom.xml
+└── ...
